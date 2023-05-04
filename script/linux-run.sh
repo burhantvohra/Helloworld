@@ -1,3 +1,3 @@
 #!/bin/bash
 
-Helloworld/dist/Debug/GNU-Linux
+dist/Debug/GNU-Linux/cppapplication_1
