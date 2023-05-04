@@ -6,7 +6,6 @@ pipeline {
 				sh 'echo "Building..."'
 				sh 'chmod +x script/linux-build.sh'
 				sh 'script/linux-build.sh'
-				archiveArtifacts artifacts: '/dist/Debug/GNU-Linux/*', fingerprint:true
 				}
 			}
 		stage('Test'){
